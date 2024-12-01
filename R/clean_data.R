@@ -1,3 +1,9 @@
+#Function that cleans punctuation, adds lowercase, and removes NA entries and allows the user to decide how they want to clean the data
+#' @param x
+#' @param punct
+#' @param lower
+#' @param removeNA
+#' @export
 clean_data <- function(x, punct = TRUE, lower = TRUE, removeNA = TRUE)
 {
   if (punct == TRUE) {
@@ -22,4 +28,4 @@ clean_data <- function(x, punct = TRUE, lower = TRUE, removeNA = TRUE)
   }
 }
 
-#Function that cleans punctuations, adds lowercase, and removes NA entries and allows the user to decide how they want to clean the data
+
