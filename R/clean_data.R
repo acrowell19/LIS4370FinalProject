@@ -1,4 +1,5 @@
 #Function that cleans punctuation, adds lowercase, and removes NA entries and allows the user to decide how they want to clean the data
+#' @title clean_data
 #' @param x
 #' @param punct
 #' @param lower

@@ -1,4 +1,5 @@
 #'Function for cleaning column names
+#' @title clean_columns
 #' @param x
 #' @export
 clean_columns <- function(x)
